@@ -12,4 +12,3 @@ export class MoviesService {
     return this.http.get('https://api.themoviedb.org/3/movie/popular?api_key=bfa4d14f82ba33f4fbe5e2cdf0f1a990')
   }
 }
- 
