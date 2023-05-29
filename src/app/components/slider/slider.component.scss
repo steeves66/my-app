@@ -61,7 +61,25 @@
               margin-left: 9px;
             }
           }
+
+          .rating {
+            display: flex;
+            align-items: center;
+            .app-icon {
+              margin-right: 5px;
+              color: #d4af37;
+            }
+
+            &-value {
+              color: $white;
+            }
+          }
         }
+      }
+
+      .desc {
+        font-size: 1.2rem;
+        line-height: 1.6;
       }
     }
   }

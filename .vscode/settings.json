@@ -1,0 +1,6 @@
+{
+  "html.autoClosingTags": true,
+  "editor.autoSurround": "languageDefined",
+  "editor.foldingHighlight": true,
+  "editor.guides.highlightActiveBracketPair": true
+}
