@@ -16,15 +16,15 @@ export class HomeComponent implements OnInit{
 
   ngOnInit(): void {
     this.mooviesService.getMovies('popular').subscribe((response)=>{
-      this.popularMovies = response.results
-    })
+      this.popularMovies = response
+    }) 
 
     this.mooviesService.getMovies('upcoming').subscribe((response)=>{
-      this.upComingMovies = response.results
+      this.upComingMovies = response
     })
 
     this.mooviesService.getMovies('top_rated').subscribe((response)=>{
-      this.topRatedMovies = response.results
+      this.topRatedMovies = response
     })
   }
 }
